@@ -80,6 +80,6 @@ model GateConfiguration {
   type: GateType;
 
   @doc("Scheduled start configuration for gates of type ScheduledStart.")
-  @added(Versions.v2025_12_24_preview)
+  @added(Versions.v2026_01_01_preview)
   scheduledStart?: ScheduledStartProperties;
 }
