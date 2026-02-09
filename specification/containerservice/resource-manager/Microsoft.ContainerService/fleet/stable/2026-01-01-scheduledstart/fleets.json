@@ -4690,12 +4690,19 @@
             "read",
             "create"
           ]
+        },
+        "absoluteStartTime": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The absolute time when the gate will complete. Set when the gate is created.",
+          "readOnly": true
         }
       },
       "required": [
         "startDay",
         "startTime",
-        "utcOffset"
+        "utcOffset",
+        "absoluteStartTime"
       ]
     },
     "SkipProperties": {
